@@ -11,8 +11,5 @@ def linear_search_product(productList, targetProduct):
 products=["shoes", "boot", "loafer", "shoes", "sandal", "shoes"]
 target="shoes"
 target2="apple"
-target3="boot"
 result=linear_search_product(products, target)
-result2=linear_search_product(products,target2)
-result3=linear_search_product(products,target3)
-print("target1 is in",(result),"and target2 is in",(result2),"and target3 is in",(result3))
+print(result)
